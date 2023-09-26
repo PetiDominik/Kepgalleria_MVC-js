@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#nagykep {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.kepTarolo {
+    border: 2px solid lightgrey;
+    margin: 5px;
+    padding: 2px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.kepTarolo img {
+    width: 100%;
+    padding: 5px;
+}
+
+.container {
+    margin: 0 150px;
+}
+
+.gomb {
+    flex: 0 0 20px;
+}
